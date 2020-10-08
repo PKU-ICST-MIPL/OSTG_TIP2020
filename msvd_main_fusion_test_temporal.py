@@ -288,7 +288,7 @@ def main(hf,obj_hfs,f_type,
 		res_path = 'fusion/%s_w1(%.2f)_w2(%.2f).json' % (saveprefix, w1, w2)
 		evaluate_mode_by_shell(res_path,js)
 	w1 = 1.0
-	w2 = 1.0
+	w2 = 0.6
 	perform_fusion(w1, w2)
 	
 	'''
